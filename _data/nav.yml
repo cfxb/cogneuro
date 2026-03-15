@@ -1,0 +1,31 @@
+# Navigation — cogneuro.net
+
+- title: "home"
+  url: "/"
+
+- title: "about"
+  url: "/general/about/"
+
+- title: "clinical fmri"
+  subnav:
+    - title: "fMRI overview & resources"
+      url: "/clinical-fmri/fmri-resources/"
+    - title: "OMfMRI test battery"
+      url: "/clinical-fmri/omfmri/"
+    - title: "ESM stimuli"
+      url: "/clinical-fmri/esm-stimuli/"
+
+- title: "research"
+  subnav:
+    - title: "Research studies & publications"
+      url: "/research/studies/"
+    - title: "Imaging resources"
+      url: "/research/imaging-resources/"
+
+- title: "contact"
+  url: "/contact/"
+
+- title: "Clinical Care →"
+  url: "https://www.sparrow.clinic"
+  external: true
+  highlight: true

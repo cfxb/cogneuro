@@ -1,0 +1,21 @@
+title: "cogneuro.net"
+description: "Clinical fMRI and Cognition — Christopher Benjamin PhD"
+author: "Christopher Benjamin"
+url: "https://cogneuro.net"
+baseurl: ""
+
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Include _redirects for Cloudflare Pages
+include:
+  - _redirects

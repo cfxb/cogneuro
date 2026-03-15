@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Open Multilingual fMRI Battery (omfMRI)"
+section: clinical fmri
 ---
 
 <p class="page-intro">The Open Multilingual fMRI Battery (OMfMRI) battery is a standardised set of language fMRI tasks developed for pre-surgical language lateralisation and localisation in epilepsy.</p>

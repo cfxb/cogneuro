@@ -8,7 +8,6 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -17,6 +16,7 @@
     <div class="header-inner">
       <a href="/" class="logo">
         <img src="/assets/images/icon3.jpg" alt="{{ site.title }}">
+        <span>cogneuro<span style="color:var(--text-muted)">.net</span></span>
       </a>
 
       <button class="mobile-menu-toggle" aria-label="Toggle menu">&#9776;</button>
@@ -47,10 +47,13 @@
   </header>
 
   <main>
-    <div class="content">
-      {% if page.title and page.show_title != false %}
-        <h1>{{ page.title }}</h1>
-      {% endif %}
+    {% if page.title and page.show_title != false %}
+    <div class="page-title-bar">
+      {% if page.section %}<p class="breadcrumb"><span>{{ page.section }}</span> / {{ page.title }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+    </div>
+    {% endif %}
+    <div class="page-body">
       {{ content }}
     </div>
   </main>

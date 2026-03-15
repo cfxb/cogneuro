@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+section: general
 ---
 
 <img src="/assets/images/benjamin_christopher.jpg" alt="Christopher Benjamin" class="profile-photo">

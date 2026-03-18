@@ -10,7 +10,7 @@ show_title: false
     <h1 class="hero__title">Clinical Language fMRI</h1>
   </div>
 </section>
-<p class="hero-caption">Language fMRI: left-lateralised activation in a pre-surgical case obtained with the omFMRI battery</p>
+<p class="hero-caption">A presurgical language fMRI obtained with the omFMRI battery</p>
 
 <div class="page-body" markdown="1">
 

@@ -15,7 +15,7 @@ show_title: false
 <div class="page-body">
 
 <div class="callout callout-notice">
-  This website is currently undergoing updates. If you have any questions in the meantime, please contact <a href="mailto:christopher.benjamin@sparrow.clinic">Dr. Benjamin</a>.
+  This website is currently undergoing updates.
 </div>
 
 ## Clinical Language fMRI

@@ -1,26 +1,28 @@
 /* ============================================================
    cogneuro.net — redesign
-   Palette: deep dark bg · electric teal accent · warm orange highlight
+   Palette: clean light bg · teal accent · warm orange highlight
+   Mirrors the visual language of sparrow-redesign
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* ---- Custom properties ------------------------------------ */
 :root {
-  --bg:            #07090d;
-  --surface:       #0d1520;
-  --surface-2:     #121e2d;
-  --text:          #d4e2ec;
-  --text-muted:    #4d6a7e;
-  --text-dim:      #8aafc7;
-  --accent:        #00b8d9;
-  --accent-dim:    #007a91;
-  --accent-glow:   rgba(0, 184, 217, 0.12);
-  --warm:          #e07b3c;
-  --warm-dim:      rgba(224, 123, 60, 0.1);
-  --border:        rgba(0, 184, 217, 0.12);
-  --border-solid:  #1a2e3e;
-  --header-bg:     rgba(7, 9, 13, 0.92);
+  --bg:            #ffffff;
+  --surface:       #f0faf9;
+  --surface-2:     #e4f5f3;
+  --text:          #0f2624;
+  --text-muted:    #6a9e9a;
+  --text-dim:      #2e5c58;
+  --heading:       #081a18;
+  --accent:        #00a99d;
+  --accent-dark:   #007f76;
+  --accent-glow:   rgba(0, 169, 157, 0.12);
+  --warm:          #f06430;
+  --warm-dim:      rgba(240, 100, 48, 0.10);
+  --border:        rgba(0, 169, 157, 0.12);
+  --border-solid:  #b8e0dc;
+  --header-bg:     rgba(255, 255, 255, 0.96);
   --max-width:     980px;
   --radius:        4px;
   --mono:          'JetBrains Mono', 'Courier New', monospace;
@@ -48,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #e8f4fa;
+  color: var(--heading);
 }
 
 h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1.25rem; }
@@ -62,9 +64,9 @@ a {
   text-decoration: none;
   transition: color 0.15s, opacity 0.15s;
 }
-a:hover { color: #fff; }
+a:hover { color: var(--accent-dark); }
 
-strong { color: #e8f4fa; font-weight: 600; }
+strong { color: var(--heading); font-weight: 600; }
 
 ul, ol {
   padding-left: 1.4rem;
@@ -107,7 +109,7 @@ header {
   background: var(--header-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-solid);
+  border-bottom: 2px solid var(--surface-2);
 }
 
 .header-inner {
@@ -125,21 +127,22 @@ header {
   align-items: center;
   gap: 0.65rem;
   text-decoration: none;
-  color: #e8f4fa;
+  color: var(--text);
   font-family: var(--mono);
   font-weight: 500;
   font-size: 0.85rem;
   letter-spacing: 0.06em;
   flex-shrink: 0;
 }
+.logo:hover { color: var(--heading); text-decoration: none; }
 
 .logo img {
   width: 28px;
   height: 28px;
   object-fit: cover;
   border-radius: 2px;
-  opacity: 0.8;
-  filter: grayscale(30%) brightness(1.1);
+  opacity: 0.85;
+  filter: grayscale(20%);
 }
 
 /* Desktop nav */
@@ -189,13 +192,13 @@ nav {
   top: calc(100% + 4px);
   left: 0;
   min-width: 230px;
-  background: var(--surface);
+  background: var(--bg);
   border: 1px solid var(--border-solid);
   border-top: 2px solid var(--accent);
   border-radius: 0 0 var(--radius) var(--radius);
   padding: 0.5rem 0;
   list-style: none;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  box-shadow: 0 12px 32px rgba(0, 60, 56, 0.12);
   z-index: 300;
 }
 
@@ -221,13 +224,13 @@ nav {
 /* Highlight nav item (Clinical Care) */
 .nav-highlight > a {
   color: var(--warm) !important;
-  border: 1px solid rgba(224, 123, 60, 0.25);
+  border: 1px solid rgba(240, 100, 48, 0.25);
   border-radius: var(--radius);
 }
 
 .nav-highlight > a:hover {
   background: var(--warm-dim) !important;
-  color: #fff !important;
+  color: var(--heading) !important;
 }
 
 /* Mobile menu toggle */
@@ -255,7 +258,7 @@ nav {
     background: var(--surface);
     border-bottom: 1px solid var(--border-solid);
     padding: 1rem 1.5rem;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    box-shadow: 0 8px 24px rgba(0, 60, 56, 0.1);
   }
   nav.open .nav-list {
     flex-direction: column;
@@ -288,36 +291,74 @@ nav {
 .hero {
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center 40%;
+  min-height: 380px;
+  display: flex;
+  align-items: flex-end;
   border-bottom: 1px solid var(--border-solid);
-  background: #000;
 }
 
-.hero img {
-  width: 100%;
-  max-height: 320px;
-  object-fit: cover;
-  object-position: center 40%;
-  display: block;
-  filter: brightness(0.45) saturate(0.6);
-  transition: filter 0.3s;
+@media (min-width: 768px) {
+  .hero { min-height: 460px; }
 }
 
-.hero:hover img {
-  filter: brightness(0.55) saturate(0.7);
-}
-
-.hero-caption {
+.hero::before {
+  content: "";
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2rem 1.5rem 1.1rem;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 0, 0, 0.35) 50%,
+    rgba(0, 0, 0, 0.72) 100%
+  );
+  z-index: 0;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero__content { padding: 4rem 1.5rem; }
+}
+
+.hero__eyebrow {
+  display: inline-block;
   font-family: var(--mono);
   font-size: 0.68rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
-  background: linear-gradient(transparent, rgba(7,9,13,0.9));
+  margin-bottom: 0.75rem;
+}
+
+.hero__title {
+  font-family: var(--sans);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.75rem;
+}
+
+.hero__subtitle {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0;
+  max-width: 560px;
+  line-height: 1.7;
 }
 
 /* ---- Callout boxes --------------------------------------- */
@@ -333,18 +374,18 @@ nav {
 .callout-clinic {
   background: var(--warm-dim);
   border-color: var(--warm);
-  color: #b8896b;
+  color: #7a3a18;
 }
 .callout-clinic a { color: var(--warm); font-weight: 500; }
-.callout-clinic a:hover { color: #fff; }
+.callout-clinic a:hover { color: var(--heading); }
 
 .callout-notice {
   background: var(--surface);
-  border-color: var(--accent-dim);
-  color: var(--text-muted);
+  border-color: var(--accent-dark);
+  color: var(--text-dim);
 }
 .callout-notice a { color: var(--accent); font-weight: 500; }
-.callout-notice a:hover { color: #fff; }
+.callout-notice a:hover { color: var(--heading); }
 
 /* ---- Cards ----------------------------------------------- */
 .cards {
@@ -390,7 +431,7 @@ nav {
   font-size: 0.95rem;
   font-weight: 600;
   margin: 0;
-  color: #e8f4fa;
+  color: var(--heading);
   font-family: var(--sans);
   letter-spacing: -0.01em;
 }
@@ -418,7 +459,7 @@ nav {
 }
 
 .card-link:hover {
-  color: #fff;
+  color: var(--heading);
   gap: 0.65rem;
 }
 
@@ -439,12 +480,12 @@ a.button, .button, a.btn, .btn {
   white-space: nowrap;
   background: transparent;
   color: var(--accent);
-  border-color: var(--accent-dim);
+  border-color: var(--accent-dark);
 }
 
 a.button:hover, .button:hover, a.btn:hover, .btn:hover {
   background: var(--accent-glow);
-  color: #fff;
+  color: var(--heading);
   border-color: var(--accent);
 }
 
@@ -454,9 +495,9 @@ a.button-primary {
   border-color: var(--accent);
 }
 a.button-primary:hover {
-  background: #fff;
+  background: var(--accent-dark);
   color: var(--bg);
-  border-color: #fff;
+  border-color: var(--accent-dark);
 }
 
 .button-group {
@@ -496,18 +537,45 @@ tr:hover td { background: var(--surface); }
 
 /* ---- Profile photo --------------------------------------- */
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: var(--radius);
   border: 1px solid var(--border-solid);
-  filter: grayscale(20%) brightness(0.9);
+  filter: grayscale(20%) brightness(0.95);
+  flex-shrink: 0;
 }
 
+/* Float for standalone profile-photo (e.g. Jared Cherry section) */
 @media (min-width: 600px) {
-  .profile-photo {
+  .profile-photo:not(.profile-block .profile-photo) {
     float: right;
     margin: 0 0 1.5rem 2rem;
+  }
+}
+
+/* Profile block: text left, photo right */
+.profile-block {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.profile-block .profile-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-block .profile-text > *:first-child { margin-top: 0; }
+
+@media (max-width: 599px) {
+  .profile-block {
+    flex-direction: column;
+  }
+  .profile-block .profile-photo {
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -521,7 +589,7 @@ tr:hover td { background: var(--surface); }
   border-radius: var(--radius);
   border: 1px solid var(--border-solid);
   margin: 1.5rem 0;
-  filter: brightness(0.8) saturate(0.7);
+  filter: brightness(0.95) saturate(0.85);
 }
 
 /* ---- Page title area ------------------------------------- */

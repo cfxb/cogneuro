@@ -4,14 +4,13 @@ title: Language fMRI & Clinical Neuroscience
 show_title: false
 ---
 
-<div class="hero">
-  <img src="/assets/images/language.png" alt="Language fMRI activation map showing left-lateralised language regions">
-  <p class="hero-caption">Language fMRI: left-lateralised activation in a pre-surgical case</p>
-</div>
-
-<div class="callout callout-clinic">
-  Looking for Dr. Benjamin's clinical neuropsychology practice? Visit <a href="https://www.sparrow.clinic">Sparrow Neuropsychology</a>.
-</div>
+<section class="hero" style="background-image: url('/assets/images/language.png')">
+  <div class="hero__content">
+    <p class="hero__eyebrow">cogneuro.net &middot; Clinical fMRI &amp; Neuroscience</p>
+    <h1 class="hero__title">Language fMRI &amp;<br>Clinical Neuroscience</h1>
+    <p class="hero__subtitle">Language fMRI: left-lateralised activation in a pre-surgical case</p>
+  </div>
+</section>
 
 <div class="callout callout-notice">
   This website is currently undergoing updates. If you have any questions in the meantime, please contact <a href="mailto:christopher.benjamin@sparrow.clinic">Dr. Benjamin</a>.

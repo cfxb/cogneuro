@@ -4,15 +4,20 @@ title: About
 section: general
 ---
 
-<img src="/assets/images/benjamin_christopher.jpg" alt="Christopher Benjamin" class="profile-photo">
+<div class="profile-block">
+<div class="profile-text" markdown="1">
 
 ## Christopher Benjamin, BA, MA (Clin. Neuro), PhD
 
-Dr. Benjamin completed his Master's and PhD in clinical neuropsychology at the University of Melbourne, followed by research and clinical fellowships at Boston Children's Hospital, Harvard Medical School, and UCLA where he was Chief Fellow.  He is an Associate Professor at Yale University in Connecticut, which he joined in 2014, and a member of the neuropsychology team at VGH's epilepsy clinic in BC, Canada, since 2024.  He has over fifteen years' clinical, research, and educational experience, with specializations in epilepsy, brain mapping, dyslexia, and ADHD.
+Dr. Benjamin completed his Master’s and PhD in clinical neuropsychology at the University of Melbourne, followed by research and clinical fellowships at Boston Children’s Hospital, Harvard Medical School, and UCLA where he was Chief Fellow.  He is an Associate Professor at Yale University in Connecticut, which he joined in 2014, and a member of the neuropsychology team at VGH’s epilepsy clinic in BC, Canada, since 2024.  He has over fifteen years’ clinical, research, and educational experience, with specializations in epilepsy, brain mapping, dyslexia, and ADHD.
 
 Dr. Benjamin is also active in the neuropsychology community, serving until 2026 as a co-chair of the International Neuropsychological Society’s Epilepsy Special Interest Group. He is a licensed psychologist in Canada (BC #4057) and the U.S. (CT #8423).
 
 Publications: [Google Scholar](https://scholar.google.com/citations?user=k61JbYUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Christopher-Benjamin-3?ev=hdr_xprf)
+
+</div>
+<img src="/assets/images/benjamin_christopher.jpg" alt="Christopher Benjamin" class="profile-photo">
+</div>
 
 ---
 

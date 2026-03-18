@@ -27,7 +27,7 @@ Dr. Christopher Benjamin is a clinical neuropsychologist based in the Epilepsy C
 <div class="cards">
   <div class="card">
     <h3>OMfMRI Test Battery</h3>
-    <p>Download the standardised Object and Method fMRI task battery for pre-surgical language lateralisation and localisation.</p>
+    <p>Download the standardised Open Multilingual fMRI task battery for pre-surgical language lateralisation and localisation.</p>
     <a href="/clinical-fmri/omfmri/" class="card-link">Download &amp; learn more →</a>
   </div>
   <div class="card">

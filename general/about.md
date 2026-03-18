@@ -16,7 +16,7 @@ Dr. Benjamin is also active in the neuropsychology community, serving until 2026
 Publications: [Google Scholar](https://scholar.google.com/citations?user=k61JbYUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Christopher-Benjamin-3?ev=hdr_xprf)
 
 </div>
-<img src="/assets/images/benjamin_christopher.jpg" alt="Christopher Benjamin" class="profile-photo">
+<img src="/assets/images/benjamin_christopher.jpg" alt="Christopher Benjamin" class="profile-photo" style="object-position: 50% 20%;">
 </div>
 
 ---

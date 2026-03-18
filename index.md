@@ -12,7 +12,7 @@ show_title: false
   </div>
 </section>
 
-<div class="page-body">
+<div class="page-body" markdown="1">
 
 <div class="callout callout-notice">
   This website is currently undergoing updates.

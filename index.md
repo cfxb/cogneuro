@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Language fMRI & Clinical Neuroscience
 show_title: false
 ---
@@ -11,6 +11,8 @@ show_title: false
     <p class="hero__subtitle">Language fMRI: left-lateralised activation in a pre-surgical case</p>
   </div>
 </section>
+
+<div class="page-body">
 
 <div class="callout callout-notice">
   This website is currently undergoing updates. If you have any questions in the meantime, please contact <a href="mailto:christopher.benjamin@sparrow.clinic">Dr. Benjamin</a>.
@@ -43,4 +45,6 @@ Dr. Christopher Benjamin is a clinical neuropsychologist based in the Epilepsy C
     <p>Dr. Benjamin's clinical practice — neuropsychological assessment, epilepsy, and private referrals.</p>
     <a href="https://www.sparrow.clinic" class="card-link">Visit sparrow.clinic →</a>
   </div>
+</div>
+
 </div>

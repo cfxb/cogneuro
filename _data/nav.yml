@@ -25,7 +25,7 @@
 - title: "contact"
   url: "/contact/"
 
-- title: "Clinical Care →"
+- title: "clinic →"
   url: "https://www.sparrow.clinic"
   external: true
   highlight: true

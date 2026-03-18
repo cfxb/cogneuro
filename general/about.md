@@ -23,7 +23,7 @@ Publications: [Google Scholar](https://scholar.google.com/citations?user=k61JbYU
 
 ## Current student
 
-<img src="/assets/images/jared_cherry.jpg" alt="Jared Cherry" class="profile-photo">
+<img src="/assets/images/jared_cherry.jpg" alt="Jared Cherry" class="profile-photo" style="object-position: 50% 20%;">
 
 **Jared Cherry** — Graduate Student.  Jared is a Clinical Psychology PhD student specializing in Neuropsychology at Rosalind Franklin University of Medicine and Science. He has professional experience as a teacher and course designer for multiple international educational institutions, and he has contributed to research in several Neurology, Neuropsychology, and Neuroscience laboratories across North America. His research interests center on the application of neuropsychology to neurosurgical contexts, particularly in pre-surgical assessment and post-surgical outcome monitoring. 
 

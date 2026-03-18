@@ -6,19 +6,17 @@ show_title: false
 
 <section class="hero" style="background-image: url('/assets/images/language.png')">
   <div class="hero__content">
-    <p class="hero__eyebrow">cogneuro.net &middot; Clinical fMRI &amp; Neuroscience</p>
-    <h1 class="hero__title">Language fMRI &amp;<br>Clinical Neuroscience</h1>
-    <p class="hero__subtitle">Language fMRI: left-lateralised activation in a pre-surgical case</p>
+    <p class="hero__eyebrow">cogneuro.net</p>
+    <h1 class="hero__title">Clinical Language fMRI</h1>
   </div>
 </section>
+<p class="hero-caption">Language fMRI: left-lateralised activation in a pre-surgical case obtained with the omFMRI battery</p>
 
 <div class="page-body" markdown="1">
 
 <div class="callout callout-notice">
   This website is currently undergoing updates.
 </div>
-
-## Clinical Language fMRI
 
 This site is a collection of resources, software, and information related to clinical language functional MRI for its use in epilepsy surgery planning.
 

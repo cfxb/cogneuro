@@ -14,6 +14,9 @@
       url: "/clinical-fmri/omfmri/"
     - title: "ESM stimuli"
       url: "/clinical-fmri/esm-stimuli/"
+    - title: "Clinical fMRI guidelines"
+      url: "https://apertureneuro.org/article/128149-consensus-recommendations-for-clinical-functional-mri-applied-to-language-mapping"
+      external: true
 
 - title: "research"
   subnav:

@@ -1,5 +1,6 @@
 /clinicians/fmri-resources/ /clinical-fmri/fmri-resources/ 301
-/clinicians/omfmri/ /clinical-fmri/omfmri/ 301
+/clinicians/omfmri/ /omfmri/ 301
+/clinical-fmri/omfmri/ /omfmri/ 301
 /clinicians/esm-stimuli/ /clinical-fmri/esm-stimuli/ 301
 /clinicians/language-tasks/ /clinical-fmri/language-tasks/ 301
 /clinicians/epilepsy-readings/ /clinical-fmri/fmri-resources/ 301

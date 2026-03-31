@@ -14,10 +14,6 @@ show_title: false
 
 <div class="page-body" markdown="1">
 
-<div class="callout callout-notice">
-  This website is currently undergoing updates.
-</div>
-
 This site brings together resources, tools, and practical guidance for clinical language functional MRI, with a focus on its application in epilepsy surgery planning.
 
 Dr. Christopher Benjamin is a clinical neuropsychologist based in the [Epilepsy Clinic at Vancouver General Hospital](https://www.vch.ca/en/service/epilepsy-programs) in British Columbia, Canada. He is a lead on the clinical language fMRI service at Vancouver General Hospital and consults nationally and internationally on clinical fMRI programs. Dr. Benjamin is also an Adjunct Associate Professor in Neurology at [Yale University](https://medicine.yale.edu/profile/christopher-benjamin/), and directs a private practice at [Sparrow Neuropsychology](https://www.sparrow.clinic). 
@@ -26,7 +22,7 @@ Dr. Christopher Benjamin is a clinical neuropsychologist based in the [Epilepsy 
   <div class="card">
     <h3>OMfMRI Test Battery</h3>
     <p>Download the standardised Open Multilingual fMRI task battery for pre-surgical language lateralisation and localisation.</p>
-    <a href="/clinical-fmri/omfmri/" class="card-link">Download &amp; learn more →</a>
+    <a href="/omfmri/" class="card-link">Download &amp; learn more →</a>
   </div>
   <div class="card">
     <h3>Language fMRI Resources</h3>

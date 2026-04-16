@@ -8,6 +8,8 @@
 
 - title: "clinical fmri"
   subnav:
+    - title: "Consulting"
+      url: "/clinical-fmri/consulting/"
     - title: "fMRI overview & resources"
       url: "/clinical-fmri/fmri-resources/"
     - title: "OMfMRI test battery"

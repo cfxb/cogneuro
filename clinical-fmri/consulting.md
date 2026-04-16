@@ -6,7 +6,7 @@ section: clinical fmri
 
 ## Clinical fMRI consulting
 
-Dr. Benjamin offers consulting to hospitals and medical centers looking to develop, improve, or evaluate their clinical language fMRI programs. As a licensed psychologist in Connecticut (CT #8423), he is credentialed to administer and bill for clinical fMRI under CPT codes 70555 and 96020 — the codes requiring physician or psychologist administration — and brings direct clinical, research, and program-building experience to every engagement.
+Dr. Benjamin offers consulting to hospitals and medical centers looking to develop, improve, or evaluate their clinical language fMRI programs. As a licensed psychologist in Connecticut (CT #8423), he is credentialed to administer and bill for clinical fMRI under CPT codes 70555 and 96020 and brings direct clinical, research, and program-building experience to every engagement.
 
 <img src="/assets/images/language.png" alt="Presurgical language fMRI" class="research-img" style="max-height:240px; object-position: center 30%;">
 

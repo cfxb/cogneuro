@@ -6,7 +6,7 @@ section: clinical fmri
 
 ## Clinical fMRI consulting
 
-Dr. Benjamin provides consulting to hospitals and medical centers seeking to develop, refine, or evaluate clinical language fMRI programs. He has extensive experience in clinical fMRI and is a co-author of the recent Organization for Human Brain Mapping consensus guidelines on clinical language fMRI [[link](https://apertureneuro.org/article/128149-consensus-recommendations-for-clinical-functional-mri-applied-to-language-mapping)]. He has advised multiple institutions on establishing language fMRI services, including Northwell Health (New York, USA) and St Luke's (Thessaloniki, Greece).
+Dr. Benjamin provides consulting to hospitals and medical centers seeking to develop, refine, or evaluate clinical language fMRI programs. He has extensive experience in clinical fMRI and is a co-author of the recent [Organization for Human Brain Mapping consensus guidelines](https://apertureneuro.org/article/128149-consensus-recommendations-for-clinical-functional-mri-applied-to-language-mapping) on clinical language fMRI. He has advised multiple institutions on establishing language fMRI services, including Northwell Health (New York, USA) and St Luke's (Thessaloniki, Greece).
 
 <img src="/assets/images/language.png" alt="Presurgical language fMRI" class="research-img" style="max-height:240px; object-position: center 30%;">
 

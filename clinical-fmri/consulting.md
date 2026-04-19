@@ -24,5 +24,5 @@ Consulting is available on a one-off basis — a single review, report, or plann
 ---
 
 <div class="button-group">
-  <a href="mailto:christopher.benjamin@sparrow.clinic" class="button button-primary">Contact Dr. Benjamin</a>
+  <a href="mailto:christopher.benjamin@cogneuro.net" class="button button-primary">Contact Dr. Benjamin</a>
 </div>

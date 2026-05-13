@@ -7,7 +7,7 @@ permalink: /omfmri/
 
 <p class="page-intro">The Open Multilingual fMRI Battery (OMfMRI) battery is a standardised set of language fMRI tasks developed for pre-surgical language lateralisation and localisation in epilepsy.</p>
 
-<p>This free test battery has been funded by, and would not have been possible without, the support of Dr. Agha Khani and the <a href="https://www.vch.ca/en/service/epilepsy-programs" target="_blank" rel="noopener">VGH Epilepsy Foundation</a>, the <a href="https://coramdeofoundation.com/" target="_blank" rel="noopener">Coram Deo foundation</a>, and the <a href="https://www.aan.com" target="_blank" rel="noopener">American Academy of Neurology</a>.</p>
+<p>This free test battery is only available due to the support of Dr. Agha Khani, <a href="https://www.vch.ca/en/service/epilepsy-programs" target="_blank" rel="noopener">VGH Epilepsy</a>, the <a href="https://vghfoundation.ca/" target="_blank" rel="noopener">VGH Foundation</a>, the <a href="https://coramdeofoundation.com/" target="_blank" rel="noopener">Coram Deo foundation</a>, and the <a href="https://www.aan.com" target="_blank" rel="noopener">American Academy of Neurology</a>.</p>
 
 ---
 
